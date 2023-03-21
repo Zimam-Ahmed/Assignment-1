@@ -425,8 +425,7 @@ public class Admin implements Initializable {
     private void setAdminAboutButtonClick(Event event) throws IOException {
         menuBarControl.about();
     }
-
-    @FXML
+     @FXML
     private void setAdminCoursePanelClick(Event event) throws IOException {
 
         FXMLLoader loader = new FXMLLoader();
